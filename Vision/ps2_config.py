@@ -1,0 +1,26 @@
+
+# Định nghĩa các hằng số cho các nút
+GP_MASK_SELECT = 0x01
+GP_MASK_START = 0x08
+GP_MASK_UP = 0x40
+GP_MASK_RIGHT = 0x20
+GP_MASK_DOWN = 0x10
+GP_MASK_LEFT = 0x80
+GP_MASK_L2 = 0x01
+GP_MASK_R2 = 0x02
+GP_MASK_L1 = 0x04
+GP_MASK_R1 = 0x08
+GP_MASK_TRIANGLE = 0x10
+GP_MASK_O = 0x20
+GP_MASK_X = 0x40
+GP_MASK_SQUARE = 0x80
+GP_MASK_RJOY = 0x02
+GP_MASK_LJOY = 0x04
+
+# Định nghĩa các hằng số cho các chế độ
+GP_MODE_DIGITAL = 0x41
+GP_MODE_NEGCON = 0x23
+GP_MODE_ANALOGUE_RED_LED = 0x73  # bat analog
+GP_MODE_ANALOGUES_RED_LED = 0x42  # bat analog
+GP_MODE_ANALOGUE_GREEN_LED = 0x53  # tat analog
+GP_MODE_NONE = 0xff
